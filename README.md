@@ -8,7 +8,7 @@ Expanding simulation.
 
 ###### MIT License
 
-Copyright (c) [2020] [Ray Trac]
+Copyright (c) [2020] [ZotacAviation]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
