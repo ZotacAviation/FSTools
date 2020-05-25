@@ -4,7 +4,7 @@ Expanding simulation.
 Website: http://fstoolsza.weebly.com/
 Discord: ZotacAviation#9949
 
-#Copyright
+# Copyright
 
 MIT License
 
