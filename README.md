@@ -1,7 +1,7 @@
 # FSTools
 Expanding simulation.
 
-###### Website: [FSTools Website](http://fstoolsza.weebly.com/)\n
+###### Website: [FSTools Website](http://fstoolsza.weebly.com/)
 ###### Discord: ZotacAviation#9949
 
 # Copyright
