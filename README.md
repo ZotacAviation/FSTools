@@ -2,7 +2,7 @@
 Expanding simulation.
 
 ###### Website: [FSTools Website](http://fstoolsza.weebly.com/)
-###### Support: [Issues](https://github.com/ArcticCoder1/FSTools/issues)
+###### Support: [Issues](https://github.com/ZotacAviation/FSTools/issues)
 ###### Discord: ZotacAviation#9949
 
 # Copyright
