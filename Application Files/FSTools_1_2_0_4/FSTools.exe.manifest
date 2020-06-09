@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FSTools.exe" version="1.2.0.4" publicKeyToken="e6f655fca03044ad" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Images\FST-Icon.ico" asmv2:publisher="Ray Trac" co.v1:suiteName="ZotacAviation" asmv2:product="FSTools" asmv2:supportUrl="https://github.com/ArcticCoder1/FSTools/issues" co.v1:errorReportUrl="https://github.com/ArcticCoder1/FSTools/issues" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FSTools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FSTools.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DiscordRPC.dll" size="84936">
+      <assemblyIdentity name="DiscordRPC" version="1.0.150.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GXZuHnsLsf/7Fvc0mD/QhtByzSeszh711gCC+RoKPMI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FSTools.exe" size="4911984">
+      <assemblyIdentity name="FSTools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yrTHDufN/AIXMde/bPQzQGkqzzHYlZ4mMJ2JUu+S4K4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FSUIPCClient.dll" size="248832">
+      <assemblyIdentity name="FSUIPCClient" version="3.1.14.319" publicKeyToken="7E7559B53E380B17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kiXDg03+Q3E7WnB/Q61z8AMyCuwmoWnQf3h8yya94JI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Buffers.dll" size="20856">
+      <assemblyIdentity name="System.Buffers" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rMzPvkXZ8I/+7ZkW43sz6YxlvgEs//bn+ntnIQzh/vs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Diagnostics.DiagnosticSource.dll" size="66432">
+      <assemblyIdentity name="System.Diagnostics.DiagnosticSource" version="4.0.5.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>epU8Qa69Hz5deqMq4gtnc9dIEga2HLb7iuA/eoa1URM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Memory.dll" size="141184">
+      <assemblyIdentity name="System.Memory" version="4.0.1.1" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jnYxjosGaSq/fasRadJ9FVV/fwo002r2Rj7/D+ISE8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Numerics.Vectors.dll" size="115856">
+      <assemblyIdentity name="System.Numerics.Vectors" version="4.1.4.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Runtime.CompilerServices.Unsafe.dll" size="17000">
+      <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" version="4.0.6.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9u+WbQGbHEBmWc4Y86sAw8fJM05NrcAkm8ZyHNt37po=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FSTools.exe.config" size="1849">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0wwVTKKNKYBMAA11OySRoi99BFIWFRYOOJd6LM/MXkM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\FST-Icon.ico" size="40875">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4wt2GU046RCtirEBoj4f++WCfep+BrHc2Ps8dGlDaTU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\airports.txt" size="1103132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gry6+3nxRuaHbdyoqtyTeRlQLDWk6d/yAj340ttjh6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\points.txt" size="472387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/V+ez+8N6bOI677m8AfrnNohrEXhBusWg8HHSbCT6t0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=FSTools" issuerKeyHash="c7d50caaf8c36cee93846f169273f6cc0cf40273" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dvmSfKkW9ufgYFYaz9spR0KocedBaHsA95Kaa69DUcI=</DigestValue></Reference></SignedInfo><SignatureValue>V2o+iTRK2cyPjOF0j139TolCdudjNVf7JdKS/JwvbJ5dSQy9jGGJE411xe7tst5PB147uWyIkzgw64XprOuEKw/P72al/fLHQRPgH+Yzj7trApbx/mbYZOwAn1yn3wurZYe5KlanQtfUShLcJc/k7VMn+gEBbTQRkpb98bOqebMdJDj8LP2NVy1SuxizK+kjPnnWBE3auR7msor5vvXRenaoP5KzhH24Il4emyuNQUwlrpSnNWS/U/ce0AbsJTGIj36UMwIdzhicrZiksAZEmGBi1opodKMSW41nFj3d8E7i0X7ovSQoz2bMKXCNcZVL6K9Hs9CTAXWJdt9A84ElFA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z8Z79H0vfqxmaGUU+243mDQa9b3I+buoVcdL02i73seHvsknCa0tW3C0YqSKFTLaAtY7Xbp6N18RAmoGD50lXluchOG2MwTV8wLV0lxe1o1UYfwza+62FjekaUc8m6yUKyQjgSPdlBFpR0ezjMQ06zSQU1ilTwwaZQIDk8ILWB+opn3zEnFGcUYTBBVJUf2lctNGEGSsEYGohaQ6TyfD6h2isvJMUKhCZH2o5q5Pyq/+TzgIe9IDVHWof32vQ/N157ogw2QzMRZkpKi70pBzmF+x1+fndo27+RRG6lspjhWJG5moLYdmB0rK/lm+o9pYFdt7lLL9KTgNzZxCp2SXRQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c25143af6b9a92f7007b6841e771a8424729dbcf1a5660e0e7f616a97c92f976" Description="" Url=""><as:assemblyIdentity name="FSTools.exe" version="1.2.0.4" publicKeyToken="e6f655fca03044ad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FSTools</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BlU1aWkDzO3+ZVUdAlzwtyYjppxoJLiwkr87piOaSjU=</DigestValue></Reference></SignedInfo><SignatureValue>V7UkWjlM3JT+FWc3dHym6v9dQ18rVG8uTbwxCC3Kj+AZGdr4x7mCaCbnBlhnyAo+Li2pqmLizuVbwuxpkY7qxyRolo/ODes0lqtgv/KG18OQ8rqmWBOi+K5xFck22EGttsdgV+u7+R1o2wmDMXJtvYNf7U4OowyFSuLtLva9Lkpb8zQ78OOGKrnWnKoQL0Y3xG/UMxqWLcXfycqgHnJtfBZLQ0jWxaN6P3rk3rEyTOrDgc7fptuXEDptM1nHPkCGlTLmrecDRQaeRpXX6U6x4QM0TwhUPvkfxIn8v3HdFCerYApkBZGWNdk8tIlyyDQllHm2FrsZUQ2RvAO/LaVnpQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z8Z79H0vfqxmaGUU+243mDQa9b3I+buoVcdL02i73seHvsknCa0tW3C0YqSKFTLaAtY7Xbp6N18RAmoGD50lXluchOG2MwTV8wLV0lxe1o1UYfwza+62FjekaUc8m6yUKyQjgSPdlBFpR0ezjMQ06zSQU1ilTwwaZQIDk8ILWB+opn3zEnFGcUYTBBVJUf2lctNGEGSsEYGohaQ6TyfD6h2isvJMUKhCZH2o5q5Pyq/+TzgIe9IDVHWof32vQ/N157ogw2QzMRZkpKi70pBzmF+x1+fndo27+RRG6lspjhWJG5moLYdmB0rK/lm+o9pYFdt7lLL9KTgNzZxCp2SXRQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDAjCCAeqgAwIBAgIQPDqn25bFmJ1PCakGZYSmfjANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdGU1Rvb2xzMB4XDTIwMDYwNjIzNDkyN1oXDTIxMDYwNzAwMDkyN1owEjEQMA4GA1UEAwwHRlNUb29sczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM/Ge/R9L36sZmhlFPtuN5g0GvW9yPm7qFXHS9Nou97Hh77JJwmtLVtwtGKkihUy2gLWO126ejdfEQJqBg+dJV5bnIThtjME1fMC1dJcXtaNVGH8M2vuthY3pGlHPJuslCskI4Ej3ZQRaUdHs4zENOs0kFNYpU8MGmUCA5PCC1gfqKZ98xJxRnFGEwQVSVH9pXLTRhBkrBGBqIWkOk8nw+odorLyTFCoQmR9qOauT8qv/k84CHvSA1R1qH99r0Pzdee6IMNkMzEWZKSou9KQc5hfsdfn53aNu/kURupbKY4ViRuZqC2HZgdKyv5ZvqPaWBXbe5Sy/Sk4Dc2cQqdkl0UCAwEAAaNUMFIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMfVDKr4w2zuk4RvFpJz9swM9AJzMA0GCSqGSIb3DQEBCwUAA4IBAQAKFOF6+KwFWx/PonqNSGxRlG38mBSpHsE8DBlOrFkMYSMsXqX+70KCSM1lvCvGilcM14ozp3eSdsi7uW1odVtsSswq1x9A3p4eC1TY5XMuyCOZCe7fX17Sz+4LKP8wNSFaOTA/T+x69iRh441vgYaV4+v6IKZRQUnt9GX37bjxWDjRMa7ql/BePZmF9hRHCNVDmvrdLEkqSSe3mY+qLCrL6RdJ0XEJyRic8N82fNH+MypU14B95CfrCrfahiM3IGB+mYkWytg5vHo75jvE4kyxvZMF4z+uesfEqI5r+0nOvKbotUuoCIFgF3NpO56rouukxnEHIVoRU/ZYZNrfW9Hp</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
