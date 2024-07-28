@@ -3,7 +3,7 @@ Expanding simulation.
 
 ###### Website: [FSTools Website](http://fstoolsza.tk/)
 ###### Support: [Issues](https://github.com/ZotacAviation/FSTools/issues)
-###### Discord: ZotacAviation#9949
+###### Discord: zotactheaviator
 
 Supporting MSFS, XP12, XP11, P3dv1-5, FSX
 
