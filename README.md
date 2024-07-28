@@ -5,5 +5,7 @@ Expanding simulation.
 ###### Support: [Issues](https://github.com/ZotacAviation/FSTools/issues)
 ###### Discord: ZotacAviation#9949
 
+Supporting MSFS, XP12, XP11, P3dv1-5, FSX
+
 *Copyright © by ZotacTheAviator (ZotacAviation)*<br/>
 All rights reserved.
